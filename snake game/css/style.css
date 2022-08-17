@@ -1,0 +1,61 @@
+*{   
+   padding:0;
+   margin: 0;
+}    
+.body
+{
+  background: url("../bg.jpg");   
+   min-height: 100vh;     /* 100vh means 100view height screen ki full height*/ 
+ background-size: 100vw 100vh;
+ display: flex;   /*basically isme cheeze control karni assan hoti yah center karni asan hoti hai*/ 
+ justify-content: center;
+ align-items: center;
+/* upar ki 2 command flex mai use hoti hai center karne ke liye */
+}
+#board
+{
+  background: linear-gradient(purple,blue);
+  /*ek sath 2 3 color use kar sakte hai linear gradient mai*/
+  width: 90vmin;
+  height: 92vmin;
+  background-color: green;
+  
+  border: 2px solid red;
+  display: grid;
+  grid-template-rows: repeat(15,1fr);
+  grid-template-columns: repeat(15,1fr);
+  /* repeat means 18 rows or colums with 1fraction space */
+}
+
+.head{
+
+   background: url("../orochimaru.jpg");   
+   background-size: 100% 100%;
+   display: flex;   /*basically isme cheeze control karni assan hoti yah center karni asan hoti hai*/ 
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   background-position: center;
+}
+.snake{
+
+  background-image: url("../orochimaru.jpg");
+ 
+  background-size: 100% 100%;
+  
+}
+.food{
+ 
+  background: url("../kakshi.jpg");
+  background-size: 100% 100%;
+
+}
+#scoreBox{
+   position: absolute;
+   top: 9px;
+   left: 200px;
+   font-size: 30px;
+   font-weight: bold;
+
+   
+}
