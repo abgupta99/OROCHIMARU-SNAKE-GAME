@@ -1,3 +1,12 @@
 snake game
 const //used to declare datatype	
  window.requestAnimationFrame()// method tells the browser that you wish to perform a\git sta
+let a={x:10,b:12}; //object in java script
+let objectarray=[{x:13,y:12}]; //it create object array
+ctime property is an inbuilt application programming interface of the fs. Stats class that 
+idname.innerHTML="sffdg" //replace or change the data of .html file
+
+ let random number ={x: Math.round(a + (b-a)* Math.random()), y: Math.round(a + (b-a)* Math.random())}
+ objectarray.forEach((e, index)=>{}
+  foodElement = document.createElement('div'); //used to create div
+  window.addEventListener//takes input from keyboard
